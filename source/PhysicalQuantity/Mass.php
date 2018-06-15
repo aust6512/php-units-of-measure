@@ -84,6 +84,7 @@ class Mass extends AbstractPhysicalQuantity
 
         $newUnit = UnitOfMeasure::linearUnitFactory('7 oz can', 4.5359237e-1 / 16 * 7);
         $newUnit->addAlias('27');
+        $newUnit->addAlias('7 oz can');
         static::addUnit($newUnit);
 
         $newUnit = UnitOfMeasure::linearUnitFactory('8 oz can', 4.5359237e-1 / 16 * 8);
