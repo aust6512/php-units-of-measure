@@ -128,18 +128,21 @@ class Volume extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('cup', 2.365882e-4);
         $newUnit->addAlias('cup');
         $newUnit->addAlias('cups');
+        $newUnit->addAlias('1');
         static::addUnit($newUnit);
 
         // teaspoon
         $newUnit = UnitOfMeasure::linearUnitFactory('tsp', 0.00000492892);
         $newUnit->addAlias('teaspoon');
         $newUnit->addAlias('teaspoons');
+        $newUnit->addAlias('24');
         static::addUnit($newUnit);
 
         // tablespoon
         $newUnit = UnitOfMeasure::linearUnitFactory('tbsp', 0.00001478676);
         $newUnit->addAlias('tablespoon');
         $newUnit->addAlias('tablespoons');
+        $newUnit->addAlias('6');
         static::addUnit($newUnit);
 
         // Gallon
@@ -162,12 +165,74 @@ class Volume extends AbstractPhysicalQuantity
         $newUnit->addAlias('fluid oz');
         $newUnit->addAlias('fl. oz.');
         $newUnit->addAlias('oz. fl.');
+        $newUnit->addAlias('2');
         static::addUnit($newUnit);
         // Pint
         $newUnit = UnitOfMeasure::linearUnitFactory('pt', 4.73176475e-4);
         $newUnit->addAlias('pint');
         $newUnit->addAlias('pints');
         $newUnit->addAlias('liq pt');
+        $newUnit->addAlias('7');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('quinoa oz', 5.9147053176475e-5);
+        $newUnit->addAlias('8');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('packet', 0.00001478676 * 2);
+        $newUnit->addAlias('10');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('small bunch', 1.18291e-4);
+        $newUnit->addAlias('11');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('large bunch', 1.5969285e-3);
+        $newUnit->addAlias('12');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('head of lettuce', 2.365882e-4 * 4);
+        $newUnit->addAlias('17');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('broccoli crown', 2.365882e-4);
+        $newUnit->addAlias('18');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('carrots', 2.365882e-4 / 2);
+        $newUnit->addAlias('19');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('celery stalks', 2.365882e-4 / 2);
+        $newUnit->addAlias('20');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('onion', 2.365882e-4 / 2);
+        $newUnit->addAlias('21');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('radish', 2.365882e-4 / 12);
+        $newUnit->addAlias('22');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('pepper', 2.365882e-4 / 2);
+        $newUnit->addAlias('23');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('garlic clove', 0.00000492892 / 2);
+        $newUnit->addAlias('28');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('sugar lb', 2.365882e-4 * 2.25 );
+        $newUnit->addAlias('30');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('cheese ounce', 2.365882e-4 * 2.67 * 2 );
+        $newUnit->addAlias('31');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('frozen vegetables ounce', 2.365882e-4 * 6.67 );
+        $newUnit->addAlias('32');
         static::addUnit($newUnit);
     }
 }
