@@ -234,5 +234,21 @@ class Volume extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('frozen vegetables ounce', 2.365882e-4 * 6.67 );
         $newUnit->addAlias('32');
         static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('med tomato', 2.365882e-4 );
+        $newUnit->addAlias('34');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('sunflower seeds oz', 2.365882e-4 / 7 * 2.5 );
+        $newUnit->addAlias('35');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('cucumber', 2.365882e-4 * 1.5 );
+        $newUnit->addAlias('36');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('bag, salad 10oz', 2.365882e-4 * 12.5 );
+        $newUnit->addAlias('37');
+        static::addUnit($newUnit);
     }
 }
