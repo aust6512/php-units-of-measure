@@ -250,5 +250,41 @@ class Volume extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('bag, salad 10oz', 2.365882e-4 * 12.5 );
         $newUnit->addAlias('37');
         static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('zucchini', 2.365882e-4 / 3 );
+        $newUnit->addAlias('38');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('avocado', 2.365882e-4 * 2 / 1.5 );
+        $newUnit->addAlias('39');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('hot dog', 2.365882e-4 / 2.5 );
+        $newUnit->addAlias('40');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('egg', 2.365882e-4 / 4 );
+        $newUnit->addAlias('41');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('lemon', 2.365882e-4 / 4 );
+        $newUnit->addAlias('42');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('banana', 2.365882e-4 );
+        $newUnit->addAlias('43');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('orange', 2.365882e-4 / 3 );
+        $newUnit->addAlias('44');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('jalapeno', 2.365882e-4 / 4 );
+        $newUnit->addAlias('45');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('pear', 2.365882e-4 / 2 );
+        $newUnit->addAlias('46');
+        static::addUnit($newUnit);
     }
 }
