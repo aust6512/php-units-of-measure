@@ -90,5 +90,17 @@ class Mass extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('8 oz can', 4.5359237e-1 / 16 * 8);
         $newUnit->addAlias('33');
         static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('fillet', 4.5359237e-1 / 16 * 4.5);
+        $newUnit->addAlias('51');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('chicken breast', 4.5359237e-1 / 16 * 8);
+        $newUnit->addAlias('56');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('chicken tender', 4.5359237e-1 / 16 * 2);
+        $newUnit->addAlias('60');
+        static::addUnit($newUnit);
     }
 }
