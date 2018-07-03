@@ -286,5 +286,25 @@ class Volume extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('pear', 2.365882e-4 / 2 );
         $newUnit->addAlias('46');
         static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('large handful', 2.365882e-4 / 2 );
+        $newUnit->addAlias('52');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('small handful', 2.365882e-4 / 4 );
+        $newUnit->addAlias('53');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('hatch green chile', 2.365882e-4 );
+        $newUnit->addAlias('55');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('leaves', 1.18291e-4 / 20 );
+        $newUnit->addAlias('57');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('jicama', 2.365882e-4 * 2 );
+        $newUnit->addAlias('58');
+        static::addUnit($newUnit);
     }
 }
