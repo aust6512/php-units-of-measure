@@ -306,5 +306,9 @@ class Volume extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('jicama', 2.365882e-4 * 2 );
         $newUnit->addAlias('58');
         static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('pine nut conv.', 2.365882e-4 / 5 );
+        $newUnit->addAlias('61');
+        static::addUnit($newUnit);
     }
 }
