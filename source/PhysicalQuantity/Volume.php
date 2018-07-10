@@ -301,6 +301,7 @@ class Volume extends AbstractPhysicalQuantity
 
         $newUnit = UnitOfMeasure::linearUnitFactory('leaves', 1.18291e-4 / 20 );
         $newUnit->addAlias('57');
+        $newUnit->addAlias('65');
         static::addUnit($newUnit);
 
         $newUnit = UnitOfMeasure::linearUnitFactory('jicama', 2.365882e-4 * 2 );
@@ -309,6 +310,14 @@ class Volume extends AbstractPhysicalQuantity
         
         $newUnit = UnitOfMeasure::linearUnitFactory('pine nut conv.', 2.365882e-4 / 5 );
         $newUnit->addAlias('61');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('lime', 2.365882e-4 / 8 );
+        $newUnit->addAlias('76');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('mango', 2.365882e-4 * 3 / 4 );
+        $newUnit->addAlias('79');
         static::addUnit($newUnit);
     }
 }
