@@ -102,5 +102,78 @@ class Mass extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('chicken tender', 4.5359237e-1 / 16 * 2);
         $newUnit->addAlias('60');
         static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('jicama', 4.5359237e-1 / 2);
+        $newUnit->addAlias('67');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('heart of palm', 4.5359237e-1 / 16 * 2);
+        $newUnit->addAlias('68');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('4 oz can', 4.5359237e-1 / 16 * 4);
+        $newUnit->addAlias('80');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('15 oz can', 4.5359237e-1 / 16 * 15);
+        $newUnit->addAlias('87');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('chile', 4.5359237e-1 / 8);
+        $newUnit->addAlias('86');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('squash', 4.5359237e-1 / 4);
+        $newUnit->addAlias('82');
+        $newUnit->addAlias('98');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('turnips', 4.5359237e-1 / 4);
+        $newUnit->addAlias('84');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('eggplant', 4.5359237e-1);
+        $newUnit->addAlias('85');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('spear asparagus', 4.5359237e-1 / 20);
+        $newUnit->addAlias('90');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('rib', 4.5359237e-1 / 4);
+        $newUnit->addAlias('93');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('tortilla', 4.5359237e-1 / 16);
+        $newUnit->addAlias('97');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('slice bacon', 4.5359237e-1 / 16);
+        $newUnit->addAlias('64');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('corn taco shell', 4.5359237e-1 / 16 / 4);
+        $newUnit->addAlias('99');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('12 oz bag', 4.5359237e-1 * 12 / 16);
+        $newUnit->addAlias('100');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('sausage link', 4.5359237e-1 / 4);
+        $newUnit->addAlias('71');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('16 oz jar', 4.5359237e-1 / 16 * 16);
+        $newUnit->addAlias('101');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('12 oz jar', 4.5359237e-1 / 16 * 12);
+        $newUnit->addAlias('102');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('24 oz jar', 4.5359237e-1 / 16 * 24);
+        $newUnit->addAlias('103');
+        static::addUnit($newUnit);
     }
 }
