@@ -319,5 +319,37 @@ class Volume extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('mango', 2.365882e-4 * 3 / 4 );
         $newUnit->addAlias('79');
         static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('shallot', 2.365882e-4 / 16 );
+        $newUnit->addAlias('81');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('egg yolk', 2.365882e-4 * 1.5 / 16 );
+        $newUnit->addAlias('83');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('sheet', 2.365882e-4 * 2 );
+        $newUnit->addAlias('88');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('8 oz mushroom package', 2.365882e-4 / 2 );
+        $newUnit->addAlias('89');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('sprigs', 2.365882e-4 / 24 );
+        $newUnit->addAlias('91');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('peach', 2.365882e-4 / 2 );
+        $newUnit->addAlias('92');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('leek', 2.365882e-4);
+        $newUnit->addAlias('94');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('star anise', 2.365882e-4 / 96);
+        $newUnit->addAlias('95');
+        static::addUnit($newUnit);
     }
 }
