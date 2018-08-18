@@ -81,10 +81,14 @@ class Mass extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('14 oz can', 4.5359237e-1 / 16 * 14);
         $newUnit->addAlias('26');
         static::addUnit($newUnit);
-
+             
         $newUnit = UnitOfMeasure::linearUnitFactory('7 oz can', 4.5359237e-1 / 16 * 7);
         $newUnit->addAlias('27');
         $newUnit->addAlias('7 oz can');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('sweet potato', 4.5359237e-1 / 4);
+        $newUnit->addAlias('29');
         static::addUnit($newUnit);
 
         $newUnit = UnitOfMeasure::linearUnitFactory('8 oz can', 4.5359237e-1 / 16 * 8);
@@ -103,6 +107,10 @@ class Mass extends AbstractPhysicalQuantity
         $newUnit->addAlias('60');
         static::addUnit($newUnit);
         
+        $newUnit = UnitOfMeasure::linearUnitFactory('slice bacon', 4.5359237e-1 / 16);
+        $newUnit->addAlias('64');
+        static::addUnit($newUnit);
+        
         $newUnit = UnitOfMeasure::linearUnitFactory('jicama', 4.5359237e-1 / 2);
         $newUnit->addAlias('67');
         static::addUnit($newUnit);
@@ -110,24 +118,20 @@ class Mass extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('heart of palm', 4.5359237e-1 / 16 * 2);
         $newUnit->addAlias('68');
         static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('sausage link', 4.5359237e-1 / 4);
+        $newUnit->addAlias('71');
+        static::addUnit($newUnit);
 
         $newUnit = UnitOfMeasure::linearUnitFactory('4 oz can', 4.5359237e-1 / 16 * 4);
         $newUnit->addAlias('80');
         static::addUnit($newUnit);
-
-        $newUnit = UnitOfMeasure::linearUnitFactory('15 oz can', 4.5359237e-1 / 16 * 15);
-        $newUnit->addAlias('87');
-        static::addUnit($newUnit);
-
-        $newUnit = UnitOfMeasure::linearUnitFactory('chile', 4.5359237e-1 / 8);
-        $newUnit->addAlias('86');
-        static::addUnit($newUnit);
-
+        
         $newUnit = UnitOfMeasure::linearUnitFactory('squash', 4.5359237e-1 / 4);
         $newUnit->addAlias('82');
         $newUnit->addAlias('98');
         static::addUnit($newUnit);
-
+        
         $newUnit = UnitOfMeasure::linearUnitFactory('turnips', 4.5359237e-1 / 4);
         $newUnit->addAlias('84');
         static::addUnit($newUnit);
@@ -135,7 +139,15 @@ class Mass extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('eggplant', 4.5359237e-1);
         $newUnit->addAlias('85');
         static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('chile', 4.5359237e-1 / 8);
+        $newUnit->addAlias('86');
+        static::addUnit($newUnit);
 
+        $newUnit = UnitOfMeasure::linearUnitFactory('15 oz can', 4.5359237e-1 / 16 * 15);
+        $newUnit->addAlias('87');
+        static::addUnit($newUnit);
+        
         $newUnit = UnitOfMeasure::linearUnitFactory('spear asparagus', 4.5359237e-1 / 20);
         $newUnit->addAlias('90');
         static::addUnit($newUnit);
@@ -147,11 +159,11 @@ class Mass extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('tortilla', 4.5359237e-1 / 16);
         $newUnit->addAlias('97');
         static::addUnit($newUnit);
-
-        $newUnit = UnitOfMeasure::linearUnitFactory('slice bacon', 4.5359237e-1 / 16);
-        $newUnit->addAlias('64');
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('squash', 4.5359237e-1 / 3);
+        $newUnit->addAlias('98');
         static::addUnit($newUnit);
-
+     
         $newUnit = UnitOfMeasure::linearUnitFactory('corn taco shell', 4.5359237e-1 / 16 / 4);
         $newUnit->addAlias('99');
         static::addUnit($newUnit);
@@ -160,9 +172,7 @@ class Mass extends AbstractPhysicalQuantity
         $newUnit->addAlias('100');
         static::addUnit($newUnit);
 
-        $newUnit = UnitOfMeasure::linearUnitFactory('sausage link', 4.5359237e-1 / 4);
-        $newUnit->addAlias('71');
-        static::addUnit($newUnit);
+        
 
         $newUnit = UnitOfMeasure::linearUnitFactory('16 oz jar', 4.5359237e-1 / 16 * 16);
         $newUnit->addAlias('101');
