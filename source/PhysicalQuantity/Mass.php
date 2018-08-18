@@ -159,10 +159,6 @@ class Mass extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('tortilla', 4.5359237e-1 / 16);
         $newUnit->addAlias('97');
         static::addUnit($newUnit);
-        
-        $newUnit = UnitOfMeasure::linearUnitFactory('squash', 4.5359237e-1 / 3);
-        $newUnit->addAlias('98');
-        static::addUnit($newUnit);
      
         $newUnit = UnitOfMeasure::linearUnitFactory('corn taco shell', 4.5359237e-1 / 16 / 4);
         $newUnit->addAlias('99');
