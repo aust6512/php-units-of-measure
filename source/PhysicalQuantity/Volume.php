@@ -312,8 +312,24 @@ class Volume extends AbstractPhysicalQuantity
         $newUnit->addAlias('61');
         static::addUnit($newUnit);
         
+        $newUnit = UnitOfMeasure::linearUnitFactory('ginger knob', 2.365882e-4 / 16);
+        $newUnit->addAlias('62');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('apple', 2.365882e-4);
+        $newUnit->addAlias('74');
+        static::addUnit($newUnit);
+        
         $newUnit = UnitOfMeasure::linearUnitFactory('lime', 2.365882e-4 / 8 );
         $newUnit->addAlias('76');
+        static::addUnit($newUnit);
+        
+         $newUnit = UnitOfMeasure::linearUnitFactory('scallion', 2.365882e-4 / 6);
+        $newUnit->addAlias('77');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('kiwi', 2.365882e-4 / 2);
+        $newUnit->addAlias('78');
         static::addUnit($newUnit);
         
         $newUnit = UnitOfMeasure::linearUnitFactory('mango', 2.365882e-4 * 3 / 4 );
@@ -351,17 +367,6 @@ class Volume extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('star anise', 2.365882e-4 / 96);
         $newUnit->addAlias('95');
         static::addUnit($newUnit);
-        
-        $newUnit = UnitOfMeasure::linearUnitFactory('ginger knob', 2.365882e-4 / 16);
-        $newUnit->addAlias('62');
-        static::addUnit($newUnit);
-
-        $newUnit = UnitOfMeasure::linearUnitFactory('apple', 2.365882e-4);
-        $newUnit->addAlias('74');
-        static::addUnit($newUnit);
-
-        $newUnit = UnitOfMeasure::linearUnitFactory('scallion', 2.365882e-4 / 6);
-        $newUnit->addAlias('77');
-        static::addUnit($newUnit);
+       
     }
 }
