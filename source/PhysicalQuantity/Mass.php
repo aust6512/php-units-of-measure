@@ -181,5 +181,9 @@ class Mass extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('24 oz jar', 4.5359237e-1 / 16 * 24);
         $newUnit->addAlias('103');
         static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('Spaghetti Squash', 4.5359237e-1 * 4);
+        $newUnit->addAlias('106');
+        static::addUnit($newUnit);
     }
 }
