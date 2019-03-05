@@ -195,7 +195,7 @@ class Volume extends AbstractPhysicalQuantity
         $newUnit->addAlias('17');
         static::addUnit($newUnit);
 
-        $newUnit = UnitOfMeasure::linearUnitFactory('broccoli crown', 2.365882e-4);
+        $newUnit = UnitOfMeasure::linearUnitFactory('broccoli crown', 2.365882e-4 * 4);
         $newUnit->addAlias('18');
         static::addUnit($newUnit);
 
