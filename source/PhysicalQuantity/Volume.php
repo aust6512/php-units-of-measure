@@ -298,9 +298,12 @@ class Volume extends AbstractPhysicalQuantity
         $newUnit = UnitOfMeasure::linearUnitFactory('hatch green chile', 2.365882e-4 );
         $newUnit->addAlias('55');
         static::addUnit($newUnit);
-
-        $newUnit = UnitOfMeasure::linearUnitFactory('leaves', 1.18291e-4 / 20 );
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('lettuce leaves', 1.18291e-4 / 5 );
         $newUnit->addAlias('57');
+        static::addUnit($newUnit);
+
+        $newUnit = UnitOfMeasure::linearUnitFactory('bay leaves', 1.18291e-4 / 20 );
         $newUnit->addAlias('65');
         static::addUnit($newUnit);
 
@@ -366,6 +369,10 @@ class Volume extends AbstractPhysicalQuantity
 
         $newUnit = UnitOfMeasure::linearUnitFactory('star anise', 2.365882e-4 / 96);
         $newUnit->addAlias('95');
+        static::addUnit($newUnit);
+        
+        $newUnit = UnitOfMeasure::linearUnitFactory('star anise', 2.365882e-4 * 2);
+        $newUnit->addAlias('114');
         static::addUnit($newUnit);
        
     }
